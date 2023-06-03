@@ -46,6 +46,9 @@ final class Family: Person {
 }
 
 let steve = Person(givenName: "Steven", middleName: "Paul", familyName: "Jobs")
+
+// let steve = Person.init(givenName: "Steven", middleName: "Paul", familyName: "Jobs")         it is allowed,,,
+
 let richard = Friend(givenName: "Richard", middleName: "Adrian", familyName: "Das")
 
 richard.whereWeMet = "Worked together at Travel Supermarket"
@@ -59,3 +62,29 @@ print(steve.displayString)
 print(richard.displayString)
 print(finnley.displayString)
 print(dave.displayString)
+
+
+class MovieReview {     // Reference Types
+    let movieTitle: String
+    
+    var starRating: Int
+    
+    init(movieTitle: String, starRating: Int) {
+        self.movieTitle = movieTitle
+        self.starRating = starRating
+    }
+}
+
+let shawshankReviewOnYourWebsite = MovieReview(movieTitle: "Shawshank Redemption", starRating: 3)
+
+let referenceToReviewOnTwitter = shawshankReviewOnYourWebsite
+
+let referenceToReviewOnFacebook = shawshankReviewOnYourWebsite
+
+print(referenceToReviewOnTwitter.starRating)
+print(referenceToReviewOnFacebook.starRating)
+
+shawshankReviewOnYourWebsite.starRating = 5
+
+print(referenceToReviewOnTwitter.starRating)
+print(referenceToReviewOnFacebook.starRating)
