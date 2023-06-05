@@ -62,7 +62,7 @@ enum Title {
     case miss
     case dr
     case prof
-    case other(String)
+    case other(String)      // Associated values
 }
 
 let mister: Title = .mr
