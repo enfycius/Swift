@@ -54,5 +54,3 @@ let alissa = Person(name: name)
 print(alissa.currentName.fullName())
 
 // alissa.birthName.change(familyName: "Moon")      Compile Error
-
-
