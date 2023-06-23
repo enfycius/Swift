@@ -11,6 +11,14 @@
 		184CB53D2A44911100ED9953 /* AppleInc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184CB5322A44911100ED9953 /* AppleInc.framework */; };
 		184CB5422A44911100ED9953 /* AppleIncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CB5412A44911100ED9953 /* AppleIncTests.swift */; };
 		184CB5432A44911100ED9953 /* AppleInc.h in Headers */ = {isa = PBXBuildFile; fileRef = 184CB5352A44911100ED9953 /* AppleInc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		184CB54E2A4491B700ED9953 /* SecretProductDepartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CB54D2A4491B700ED9953 /* SecretProductDepartment.swift */; };
+		184CB54F2A4491B700ED9953 /* SecretProductDepartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CB54D2A4491B700ED9953 /* SecretProductDepartment.swift */; };
+		184CB5512A4492D800ED9953 /* AppleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CB5502A4492D800ED9953 /* AppleStore.swift */; };
+		184CB5522A4492D800ED9953 /* AppleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CB5502A4492D800ED9953 /* AppleStore.swift */; };
+		184CB5542A4492E600ED9953 /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CB5532A4492E600ED9953 /* Apple.swift */; };
+		184CB5552A4492E600ED9953 /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CB5532A4492E600ED9953 /* Apple.swift */; };
+		184CB5572A44943500ED9953 /* SwiftLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CB5562A44943500ED9953 /* SwiftLanguage.swift */; };
+		184CB5582A44943500ED9953 /* SwiftLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CB5562A44943500ED9953 /* SwiftLanguage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,11 @@
 		184CB5362A44911100ED9953 /* AppleInc.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AppleInc.docc; sourceTree = "<group>"; };
 		184CB53C2A44911100ED9953 /* AppleIncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleIncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184CB5412A44911100ED9953 /* AppleIncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleIncTests.swift; sourceTree = "<group>"; };
+		184CB54C2A44914600ED9953 /* AccessControl.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = AccessControl.playground; path = ../AccessControl.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		184CB54D2A4491B700ED9953 /* SecretProductDepartment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretProductDepartment.swift; sourceTree = "<group>"; };
+		184CB5502A4492D800ED9953 /* AppleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleStore.swift; sourceTree = "<group>"; };
+		184CB5532A4492E600ED9953 /* Apple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple.swift; sourceTree = "<group>"; };
+		184CB5562A44943500ED9953 /* SwiftLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLanguage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +66,11 @@
 		184CB5282A44911100ED9953 = {
 			isa = PBXGroup;
 			children = (
+				184CB54D2A4491B700ED9953 /* SecretProductDepartment.swift */,
+				184CB5502A4492D800ED9953 /* AppleStore.swift */,
+				184CB5532A4492E600ED9953 /* Apple.swift */,
+				184CB5562A44943500ED9953 /* SwiftLanguage.swift */,
+				184CB54C2A44914600ED9953 /* AccessControl.playground */,
 				184CB5342A44911100ED9953 /* AppleInc */,
 				184CB5402A44911100ED9953 /* AppleIncTests */,
 				184CB5332A44911100ED9953 /* Products */,
@@ -194,7 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184CB5542A4492E600ED9953 /* Apple.swift in Sources */,
 				184CB5372A44911100ED9953 /* AppleInc.docc in Sources */,
+				184CB54E2A4491B700ED9953 /* SecretProductDepartment.swift in Sources */,
+				184CB5572A44943500ED9953 /* SwiftLanguage.swift in Sources */,
+				184CB5512A4492D800ED9953 /* AppleStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184CB5552A4492E600ED9953 /* Apple.swift in Sources */,
 				184CB5422A44911100ED9953 /* AppleIncTests.swift in Sources */,
+				184CB54F2A4491B700ED9953 /* SecretProductDepartment.swift in Sources */,
+				184CB5582A44943500ED9953 /* SwiftLanguage.swift in Sources */,
+				184CB5522A4492D800ED9953 /* AppleStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +426,7 @@
 		184CB54A2A44911100ED9953 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -415,6 +442,7 @@
 		184CB54B2A44911100ED9953 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
