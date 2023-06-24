@@ -35,4 +35,4 @@ let craig = Person(name: "Craig Federighi")
 
 let boughtiPhone = apple.store.selliPhone(ofModel: .iPhone12Pro)
 
-let buildAniPhone = AppleiPhone(model: .iPhone12Pro)    // Doesn't compile
+// let buildAniPhone = AppleiPhone(model: .iPhone12Pro)    // Doesn't compile
