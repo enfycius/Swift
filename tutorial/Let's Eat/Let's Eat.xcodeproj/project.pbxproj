@@ -15,6 +15,7 @@
 		18C58F882A6311CE00876842 /* Let_s_EatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C58F872A6311CE00876842 /* Let_s_EatUITests.swift */; };
 		18C58F8A2A6311CE00876842 /* Let_s_EatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C58F892A6311CE00876842 /* Let_s_EatUITestsLaunchTests.swift */; };
 		18C58F972A647D6900876842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C58F962A647D6900876842 /* Assets.xcassets */; };
+		18C58F9A2A64875400876842 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C58F992A64875400876842 /* ExploreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		18C58F872A6311CE00876842 /* Let_s_EatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Let_s_EatUITests.swift; sourceTree = "<group>"; };
 		18C58F892A6311CE00876842 /* Let_s_EatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Let_s_EatUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		18C58F962A647D6900876842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C58F992A64875400876842 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		18C58F652A6311CD00876842 /* Let's Eat */ = {
 			isa = PBXGroup;
 			children = (
+				18C58F982A6486DA00876842 /* Explore */,
 				18C58F662A6311CD00876842 /* AppDelegate.swift */,
 				18C58F682A6311CD00876842 /* SceneDelegate.swift */,
 				18C58F6C2A6311CD00876842 /* Main.storyboard */,
@@ -122,6 +125,14 @@
 				18C58F892A6311CE00876842 /* Let_s_EatUITestsLaunchTests.swift */,
 			);
 			path = "Let's EatUITests";
+			sourceTree = "<group>";
+		};
+		18C58F982A6486DA00876842 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				18C58F992A64875400876842 /* ExploreViewController.swift */,
+			);
+			path = Explore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			files = (
 				18C58F672A6311CD00876842 /* AppDelegate.swift in Sources */,
 				18C58F692A6311CD00876842 /* SceneDelegate.swift in Sources */,
+				18C58F9A2A64875400876842 /* ExploreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
