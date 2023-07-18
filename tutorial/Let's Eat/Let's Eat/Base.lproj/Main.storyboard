@@ -62,6 +62,9 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            <connections>
+                                                <segue destination="NnP-FT-XhN" kind="presentation" id="pw4-ba-55Y"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                 </collectionReusableView>
@@ -85,6 +88,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bda-dT-GC8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="23.664122137404579" y="-224.64788732394368"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="54S-U9-WOL">
+            <objects>
+                <viewController id="ibb-Dc-Vot" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jGI-f4-aWI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="EZb-MP-NpT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bfW-xU-cgb">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="0IG-9d-cLm">
+                            <connections>
+                                <segue destination="SLm-tE-4Uv" kind="unwind" unwindAction="unwindLocationCancelWithSegue:" id="EEO-NI-AC4"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="AxG-A7-Epj"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hh4-N5-bUb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="SLm-tE-4Uv" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1785.4961832061067" y="-205.63380281690141"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="aBc-co-TU4">
@@ -141,6 +168,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1vt-dZ-bee" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-903.05343511450383" y="433.80281690140845"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dLy-NA-Sft">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NnP-FT-XhN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zYr-eN-CJN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ibb-Dc-Vot" kind="relationship" relationship="rootViewController" id="PTM-2v-HId"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t7H-5S-0sA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="858.77862595419845" y="-205.63380281690141"/>
         </scene>
     </scenes>
     <resources>
