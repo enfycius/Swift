@@ -96,8 +96,20 @@
                     <view key="view" contentMode="scaleToFill" id="jGI-f4-aWI">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="CbK-6u-fM2">
+                                <rect key="frame" x="0.0" y="56" width="393" height="786"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="EZb-MP-NpT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EZb-MP-NpT" firstAttribute="bottom" secondItem="CbK-6u-fM2" secondAttribute="bottom" id="Lun-kA-yWu"/>
+                            <constraint firstItem="CbK-6u-fM2" firstAttribute="top" secondItem="EZb-MP-NpT" secondAttribute="top" id="Qdh-7P-2zm"/>
+                            <constraint firstItem="EZb-MP-NpT" firstAttribute="trailing" secondItem="CbK-6u-fM2" secondAttribute="trailing" id="gm8-re-ibz"/>
+                            <constraint firstItem="CbK-6u-fM2" firstAttribute="leading" secondItem="EZb-MP-NpT" secondAttribute="leading" id="z8J-2S-JDk"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bfW-xU-cgb">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="0IG-9d-cLm">
