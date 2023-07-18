@@ -23,18 +23,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cOJ-Jq-igC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23.664122137404579" y="433.80281690140845"/>
+            <point key="canvasLocation" x="24" y="1258"/>
         </scene>
-        <!--View Controller-->
+        <!--Restaurant List View Controller-->
         <scene sceneID="p8f-5f-SRC">
             <objects>
-                <viewController id="bRt-yR-X6c" sceneMemberID="viewController">
+                <viewController id="bRt-yR-X6c" customClass="RestaurantListViewController" customModule="Let_s_Eat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zIB-2I-kO3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yvs-no-AfQ">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="XH9-uu-8st">
                                     <size key="itemSize" width="128" height="128"/>
@@ -43,15 +43,20 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="sE3-sq-iOR">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="restaurantCell" id="sE3-sq-iOR">
                                         <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="QWd-ng-HMy">
                                             <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </collectionViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="bRt-yR-X6c" id="0EX-B6-ez4"/>
+                                    <outlet property="delegate" destination="bRt-yR-X6c" id="B2x-db-zHx"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="I6B-XA-Del"/>
@@ -63,10 +68,14 @@
                             <constraint firstItem="yvs-no-AfQ" firstAttribute="leading" secondItem="I6B-XA-Del" secondAttribute="leading" id="caI-ah-EbC"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="sSx-L1-YoF"/>
+                    <connections>
+                        <outlet property="collectionView" destination="yvs-no-AfQ" id="Kaf-tN-oDg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="38k-oc-tqZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1276" y="468"/>
+            <point key="canvasLocation" x="1471" y="283"/>
         </scene>
         <!--Explore View Controller-->
         <scene sceneID="pxF-Qa-fNa">
@@ -94,6 +103,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="bRt-yR-X6c" kind="show" id="OKS-PW-LQY"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="header" id="YIZ-VF-QBb">
@@ -222,7 +234,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1vt-dZ-bee" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-903.05343511450383" y="433.80281690140845"/>
+            <point key="canvasLocation" x="-903" y="1258"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dLy-NA-Sft">
