@@ -217,42 +217,69 @@
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jzA-vN-YpN">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jzA-vN-YpN">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="90"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PLEASE SELECT A LOCATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzQ-aW-NAc">
-                                                    <rect key="frame" x="8" y="24" width="359" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLEASE SELECT A LOCATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzQ-aW-NAc">
+                                                    <rect key="frame" x="8" y="24" width="377" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="1Ns-YS-GoM"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                                                     <color key="textColor" name="LetsEat Light Gray"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EXPLORE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40l-FR-zXO">
-                                                    <rect key="frame" x="8" y="45" width="255" height="37"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EXPLORE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40l-FR-zXO">
+                                                    <rect key="frame" x="8" y="0.0" width="273" height="37"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="37" id="33F-Wt-Dq5"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vs-W7-Slg">
-                                                    <rect key="frame" x="271" y="50" width="96" height="25"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vs-W7-Slg">
+                                                    <rect key="frame" x="289" y="50" width="96" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="96" id="0z8-fu-wfg"/>
+                                                        <constraint firstAttribute="height" constant="25" id="QzC-zp-9W4"/>
+                                                    </constraints>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="btn-location"/>
                                                     <connections>
                                                         <segue destination="NnP-FT-XhN" kind="presentation" id="pw4-ba-55Y"/>
                                                     </connections>
                                                 </button>
-                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dVK-2L-ynZ">
-                                                    <rect key="frame" x="8" y="89" width="359" height="1"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dVK-2L-ynZ">
+                                                    <rect key="frame" x="8" y="45" width="359" height="1"/>
                                                     <color key="backgroundColor" name="LetsEat Light Gray"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="UWN-qJ-uaj"/>
+                                                    </constraints>
                                                 </view>
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="90" id="4XQ-pe-uVY"/>
+                                                <constraint firstAttribute="trailing" secondItem="tzQ-aW-NAc" secondAttribute="trailing" constant="8" id="B5u-uO-dUv"/>
+                                                <constraint firstItem="dVK-2L-ynZ" firstAttribute="top" secondItem="40l-FR-zXO" secondAttribute="bottom" constant="8" id="Lxr-MM-zV4"/>
+                                                <constraint firstItem="5vs-W7-Slg" firstAttribute="leading" secondItem="40l-FR-zXO" secondAttribute="trailing" constant="8" id="Ufy-ts-nlu"/>
+                                                <constraint firstAttribute="bottom" secondItem="dVK-2L-ynZ" secondAttribute="bottom" id="Xul-8D-gdi"/>
+                                                <constraint firstItem="5vs-W7-Slg" firstAttribute="top" secondItem="tzQ-aW-NAc" secondAttribute="bottom" constant="5" id="cFA-cF-lL3"/>
+                                                <constraint firstAttribute="trailing" secondItem="dVK-2L-ynZ" secondAttribute="trailing" constant="8" id="eo7-3u-AdA"/>
+                                                <constraint firstItem="40l-FR-zXO" firstAttribute="leading" secondItem="jzA-vN-YpN" secondAttribute="leading" constant="8" id="pEg-s5-6kG"/>
+                                                <constraint firstAttribute="trailing" secondItem="5vs-W7-Slg" secondAttribute="trailing" constant="8" id="seg-Qh-veU"/>
+                                                <constraint firstItem="tzQ-aW-NAc" firstAttribute="leading" secondItem="jzA-vN-YpN" secondAttribute="leading" constant="8" id="vPP-wc-h3q"/>
+                                                <constraint firstItem="tzQ-aW-NAc" firstAttribute="top" secondItem="jzA-vN-YpN" secondAttribute="top" constant="24" id="vl0-4M-F7d"/>
+                                                <constraint firstItem="40l-FR-zXO" firstAttribute="top" secondItem="jzA-vN-YpN" secondAttribute="top" id="w2O-O6-IrW"/>
+                                            </constraints>
                                         </view>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="jzA-vN-YpN" firstAttribute="leading" secondItem="YIZ-VF-QBb" secondAttribute="leading" id="7Yk-wh-TA2"/>
+                                        <constraint firstItem="jzA-vN-YpN" firstAttribute="top" secondItem="YIZ-VF-QBb" secondAttribute="top" id="FOz-qh-UNt"/>
+                                        <constraint firstAttribute="trailing" secondItem="jzA-vN-YpN" secondAttribute="trailing" id="Mgt-vd-caP"/>
+                                    </constraints>
                                 </collectionReusableView>
                                 <connections>
                                     <outlet property="dataSource" destination="V3K-wR-Ne8" id="aNP-3H-ePv"/>
