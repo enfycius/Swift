@@ -97,6 +97,17 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aqH-nx-7ea" id="RNe-sM-kZA">
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ex-hJ-hY1">
+                                                    <rect key="frame" x="318" y="0.0" width="75" height="35"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                    <connections>
+                                                        <segue destination="4xO-bI-wbA" kind="show" id="M5L-7i-itf"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="G1g-d5-foU">
@@ -128,6 +139,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J8Z-ac-uVZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2398" y="282"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="g1E-Bw-zF2">
+            <objects>
+                <viewController id="4xO-bI-wbA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K0i-gI-9cB">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGC-dl-kSt">
+                                <rect key="frame" x="165.33333333333334" y="415.66666666666669" width="62.333333333333343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SP7-Cp-IIt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GGC-dl-kSt" firstAttribute="centerX" secondItem="K0i-gI-9cB" secondAttribute="centerX" id="tXF-UU-TiX"/>
+                            <constraint firstItem="GGC-dl-kSt" firstAttribute="centerY" secondItem="K0i-gI-9cB" secondAttribute="centerY" id="yyf-3K-fxz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="PAw-0s-CUa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RDG-T4-NWg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3279" y="300"/>
         </scene>
         <!--Explore View Controller-->
         <scene sceneID="pxF-Qa-fNa">
