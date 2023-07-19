@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -16,8 +17,20 @@
                     <view key="view" contentMode="scaleToFill" id="jsP-HX-cvB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D1J-xw-dHu">
+                                <rect key="frame" x="0.0" y="103" width="393" height="666"/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="rbj-ho-FxN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="D1J-xw-dHu" firstAttribute="leading" secondItem="rbj-ho-FxN" secondAttribute="leading" id="3Fo-12-dum"/>
+                            <constraint firstItem="D1J-xw-dHu" firstAttribute="top" secondItem="rbj-ho-FxN" secondAttribute="top" id="85G-9g-NOE"/>
+                            <constraint firstItem="rbj-ho-FxN" firstAttribute="bottom" secondItem="D1J-xw-dHu" secondAttribute="bottom" id="Hgl-cd-9F0"/>
+                            <constraint firstItem="rbj-ho-FxN" firstAttribute="trailing" secondItem="D1J-xw-dHu" secondAttribute="trailing" id="TWm-OJ-cXM"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aHQ-3f-Z4j"/>
                 </viewController>
@@ -148,8 +161,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGC-dl-kSt">
-                                <rect key="frame" x="165.33333333333334" y="415.66666666666669" width="62.333333333333343" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cd ." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGC-dl-kSt">
+                                <rect key="frame" x="182.33333333333334" y="415.66666666666669" width="28.333333333333343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
