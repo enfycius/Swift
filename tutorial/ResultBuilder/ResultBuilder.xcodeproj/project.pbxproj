@@ -7,65 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1891E4B12AB6AED500605383 /* CombineCoreLocationManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891E4B02AB6AED500605383 /* CombineCoreLocationManagerApp.swift */; };
-		1891E4B32AB6AED500605383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891E4B22AB6AED500605383 /* ContentView.swift */; };
-		1891E4B52AB6AED600605383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1891E4B42AB6AED600605383 /* Assets.xcassets */; };
-		1891E4B82AB6AED600605383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1891E4B72AB6AED600605383 /* Preview Assets.xcassets */; };
-		1891E4C22AB6AED600605383 /* CombineCoreLocationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891E4C12AB6AED600605383 /* CombineCoreLocationManagerTests.swift */; };
-		1891E4CC2AB6AED600605383 /* CombineCoreLocationManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891E4CB2AB6AED600605383 /* CombineCoreLocationManagerUITests.swift */; };
-		1891E4CE2AB6AED600605383 /* CombineCoreLocationManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891E4CD2AB6AED600605383 /* CombineCoreLocationManagerUITestsLaunchTests.swift */; };
-		1891E4DB2AB6AF5500605383 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891E4DA2AB6AF5500605383 /* LocationManager.swift */; };
-		1891E4DD2AB6B0DB00605383 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891E4DC2AB6B0DB00605383 /* LocationViewModel.swift */; };
+		1891E5232AB7345F00605383 /* ResultBuilderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891E5222AB7345F00605383 /* ResultBuilderApp.swift */; };
+		1891E5252AB7345F00605383 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891E5242AB7345F00605383 /* ContentView.swift */; };
+		1891E5272AB7346000605383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1891E5262AB7346000605383 /* Assets.xcassets */; };
+		1891E52A2AB7346000605383 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1891E5292AB7346000605383 /* Preview Assets.xcassets */; };
+		1891E5342AB7346000605383 /* ResultBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891E5332AB7346000605383 /* ResultBuilderTests.swift */; };
+		1891E53E2AB7346000605383 /* ResultBuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891E53D2AB7346000605383 /* ResultBuilderUITests.swift */; };
+		1891E5402AB7346000605383 /* ResultBuilderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891E53F2AB7346000605383 /* ResultBuilderUITestsLaunchTests.swift */; };
+		1891E54D2AB737C300605383 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891E54C2AB737C300605383 /* Setting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1891E4BE2AB6AED600605383 /* PBXContainerItemProxy */ = {
+		1891E5302AB7346000605383 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1891E4A52AB6AED500605383 /* Project object */;
+			containerPortal = 1891E5172AB7345F00605383 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1891E4AC2AB6AED500605383;
-			remoteInfo = CombineCoreLocationManager;
+			remoteGlobalIDString = 1891E51E2AB7345F00605383;
+			remoteInfo = ResultBuilder;
 		};
-		1891E4C82AB6AED600605383 /* PBXContainerItemProxy */ = {
+		1891E53A2AB7346000605383 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1891E4A52AB6AED500605383 /* Project object */;
+			containerPortal = 1891E5172AB7345F00605383 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1891E4AC2AB6AED500605383;
-			remoteInfo = CombineCoreLocationManager;
+			remoteGlobalIDString = 1891E51E2AB7345F00605383;
+			remoteInfo = ResultBuilder;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1891E4AD2AB6AED500605383 /* CombineCoreLocationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineCoreLocationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1891E4B02AB6AED500605383 /* CombineCoreLocationManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCoreLocationManagerApp.swift; sourceTree = "<group>"; };
-		1891E4B22AB6AED500605383 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1891E4B42AB6AED600605383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1891E4B72AB6AED600605383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1891E4BD2AB6AED600605383 /* CombineCoreLocationManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombineCoreLocationManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1891E4C12AB6AED600605383 /* CombineCoreLocationManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCoreLocationManagerTests.swift; sourceTree = "<group>"; };
-		1891E4C72AB6AED600605383 /* CombineCoreLocationManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombineCoreLocationManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1891E4CB2AB6AED600605383 /* CombineCoreLocationManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCoreLocationManagerUITests.swift; sourceTree = "<group>"; };
-		1891E4CD2AB6AED600605383 /* CombineCoreLocationManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCoreLocationManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1891E4DA2AB6AF5500605383 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		1891E4DC2AB6B0DB00605383 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		1891E51F2AB7345F00605383 /* ResultBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResultBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1891E5222AB7345F00605383 /* ResultBuilderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBuilderApp.swift; sourceTree = "<group>"; };
+		1891E5242AB7345F00605383 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1891E5262AB7346000605383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1891E5292AB7346000605383 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1891E52F2AB7346000605383 /* ResultBuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResultBuilderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1891E5332AB7346000605383 /* ResultBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBuilderTests.swift; sourceTree = "<group>"; };
+		1891E5392AB7346000605383 /* ResultBuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResultBuilderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1891E53D2AB7346000605383 /* ResultBuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBuilderUITests.swift; sourceTree = "<group>"; };
+		1891E53F2AB7346000605383 /* ResultBuilderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBuilderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1891E54C2AB737C300605383 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1891E4AA2AB6AED500605383 /* Frameworks */ = {
+		1891E51C2AB7345F00605383 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1891E4BA2AB6AED600605383 /* Frameworks */ = {
+		1891E52C2AB7346000605383 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1891E4C42AB6AED600605383 /* Frameworks */ = {
+		1891E5362AB7346000605383 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,144 +73,143 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1891E4A42AB6AED500605383 = {
+		1891E5162AB7345F00605383 = {
 			isa = PBXGroup;
 			children = (
-				1891E4AF2AB6AED500605383 /* CombineCoreLocationManager */,
-				1891E4C02AB6AED600605383 /* CombineCoreLocationManagerTests */,
-				1891E4CA2AB6AED600605383 /* CombineCoreLocationManagerUITests */,
-				1891E4AE2AB6AED500605383 /* Products */,
+				1891E5212AB7345F00605383 /* ResultBuilder */,
+				1891E5322AB7346000605383 /* ResultBuilderTests */,
+				1891E53C2AB7346000605383 /* ResultBuilderUITests */,
+				1891E5202AB7345F00605383 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1891E4AE2AB6AED500605383 /* Products */ = {
+		1891E5202AB7345F00605383 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1891E4AD2AB6AED500605383 /* CombineCoreLocationManager.app */,
-				1891E4BD2AB6AED600605383 /* CombineCoreLocationManagerTests.xctest */,
-				1891E4C72AB6AED600605383 /* CombineCoreLocationManagerUITests.xctest */,
+				1891E51F2AB7345F00605383 /* ResultBuilder.app */,
+				1891E52F2AB7346000605383 /* ResultBuilderTests.xctest */,
+				1891E5392AB7346000605383 /* ResultBuilderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1891E4AF2AB6AED500605383 /* CombineCoreLocationManager */ = {
+		1891E5212AB7345F00605383 /* ResultBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				1891E4B02AB6AED500605383 /* CombineCoreLocationManagerApp.swift */,
-				1891E4B22AB6AED500605383 /* ContentView.swift */,
-				1891E4B42AB6AED600605383 /* Assets.xcassets */,
-				1891E4B62AB6AED600605383 /* Preview Content */,
-				1891E4DA2AB6AF5500605383 /* LocationManager.swift */,
-				1891E4DC2AB6B0DB00605383 /* LocationViewModel.swift */,
+				1891E5222AB7345F00605383 /* ResultBuilderApp.swift */,
+				1891E5242AB7345F00605383 /* ContentView.swift */,
+				1891E5262AB7346000605383 /* Assets.xcassets */,
+				1891E5282AB7346000605383 /* Preview Content */,
+				1891E54C2AB737C300605383 /* Setting.swift */,
 			);
-			path = CombineCoreLocationManager;
+			path = ResultBuilder;
 			sourceTree = "<group>";
 		};
-		1891E4B62AB6AED600605383 /* Preview Content */ = {
+		1891E5282AB7346000605383 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1891E4B72AB6AED600605383 /* Preview Assets.xcassets */,
+				1891E5292AB7346000605383 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1891E4C02AB6AED600605383 /* CombineCoreLocationManagerTests */ = {
+		1891E5322AB7346000605383 /* ResultBuilderTests */ = {
 			isa = PBXGroup;
 			children = (
-				1891E4C12AB6AED600605383 /* CombineCoreLocationManagerTests.swift */,
+				1891E5332AB7346000605383 /* ResultBuilderTests.swift */,
 			);
-			path = CombineCoreLocationManagerTests;
+			path = ResultBuilderTests;
 			sourceTree = "<group>";
 		};
-		1891E4CA2AB6AED600605383 /* CombineCoreLocationManagerUITests */ = {
+		1891E53C2AB7346000605383 /* ResultBuilderUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1891E4CB2AB6AED600605383 /* CombineCoreLocationManagerUITests.swift */,
-				1891E4CD2AB6AED600605383 /* CombineCoreLocationManagerUITestsLaunchTests.swift */,
+				1891E53D2AB7346000605383 /* ResultBuilderUITests.swift */,
+				1891E53F2AB7346000605383 /* ResultBuilderUITestsLaunchTests.swift */,
 			);
-			path = CombineCoreLocationManagerUITests;
+			path = ResultBuilderUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1891E4AC2AB6AED500605383 /* CombineCoreLocationManager */ = {
+		1891E51E2AB7345F00605383 /* ResultBuilder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1891E4D12AB6AED600605383 /* Build configuration list for PBXNativeTarget "CombineCoreLocationManager" */;
+			buildConfigurationList = 1891E5432AB7346000605383 /* Build configuration list for PBXNativeTarget "ResultBuilder" */;
 			buildPhases = (
-				1891E4A92AB6AED500605383 /* Sources */,
-				1891E4AA2AB6AED500605383 /* Frameworks */,
-				1891E4AB2AB6AED500605383 /* Resources */,
+				1891E51B2AB7345F00605383 /* Sources */,
+				1891E51C2AB7345F00605383 /* Frameworks */,
+				1891E51D2AB7345F00605383 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CombineCoreLocationManager;
-			productName = CombineCoreLocationManager;
-			productReference = 1891E4AD2AB6AED500605383 /* CombineCoreLocationManager.app */;
+			name = ResultBuilder;
+			productName = ResultBuilder;
+			productReference = 1891E51F2AB7345F00605383 /* ResultBuilder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1891E4BC2AB6AED600605383 /* CombineCoreLocationManagerTests */ = {
+		1891E52E2AB7346000605383 /* ResultBuilderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1891E4D42AB6AED600605383 /* Build configuration list for PBXNativeTarget "CombineCoreLocationManagerTests" */;
+			buildConfigurationList = 1891E5462AB7346000605383 /* Build configuration list for PBXNativeTarget "ResultBuilderTests" */;
 			buildPhases = (
-				1891E4B92AB6AED600605383 /* Sources */,
-				1891E4BA2AB6AED600605383 /* Frameworks */,
-				1891E4BB2AB6AED600605383 /* Resources */,
+				1891E52B2AB7346000605383 /* Sources */,
+				1891E52C2AB7346000605383 /* Frameworks */,
+				1891E52D2AB7346000605383 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1891E4BF2AB6AED600605383 /* PBXTargetDependency */,
+				1891E5312AB7346000605383 /* PBXTargetDependency */,
 			);
-			name = CombineCoreLocationManagerTests;
-			productName = CombineCoreLocationManagerTests;
-			productReference = 1891E4BD2AB6AED600605383 /* CombineCoreLocationManagerTests.xctest */;
+			name = ResultBuilderTests;
+			productName = ResultBuilderTests;
+			productReference = 1891E52F2AB7346000605383 /* ResultBuilderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1891E4C62AB6AED600605383 /* CombineCoreLocationManagerUITests */ = {
+		1891E5382AB7346000605383 /* ResultBuilderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1891E4D72AB6AED600605383 /* Build configuration list for PBXNativeTarget "CombineCoreLocationManagerUITests" */;
+			buildConfigurationList = 1891E5492AB7346000605383 /* Build configuration list for PBXNativeTarget "ResultBuilderUITests" */;
 			buildPhases = (
-				1891E4C32AB6AED600605383 /* Sources */,
-				1891E4C42AB6AED600605383 /* Frameworks */,
-				1891E4C52AB6AED600605383 /* Resources */,
+				1891E5352AB7346000605383 /* Sources */,
+				1891E5362AB7346000605383 /* Frameworks */,
+				1891E5372AB7346000605383 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1891E4C92AB6AED600605383 /* PBXTargetDependency */,
+				1891E53B2AB7346000605383 /* PBXTargetDependency */,
 			);
-			name = CombineCoreLocationManagerUITests;
-			productName = CombineCoreLocationManagerUITests;
-			productReference = 1891E4C72AB6AED600605383 /* CombineCoreLocationManagerUITests.xctest */;
+			name = ResultBuilderUITests;
+			productName = ResultBuilderUITests;
+			productReference = 1891E5392AB7346000605383 /* ResultBuilderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1891E4A52AB6AED500605383 /* Project object */ = {
+		1891E5172AB7345F00605383 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					1891E4AC2AB6AED500605383 = {
+					1891E51E2AB7345F00605383 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					1891E4BC2AB6AED600605383 = {
+					1891E52E2AB7346000605383 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 1891E4AC2AB6AED500605383;
+						TestTargetID = 1891E51E2AB7345F00605383;
 					};
-					1891E4C62AB6AED600605383 = {
+					1891E5382AB7346000605383 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 1891E4AC2AB6AED500605383;
+						TestTargetID = 1891E51E2AB7345F00605383;
 					};
 				};
 			};
-			buildConfigurationList = 1891E4A82AB6AED500605383 /* Build configuration list for PBXProject "CombineCoreLocationManager" */;
+			buildConfigurationList = 1891E51A2AB7345F00605383 /* Build configuration list for PBXProject "ResultBuilder" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,36 +217,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 1891E4A42AB6AED500605383;
-			productRefGroup = 1891E4AE2AB6AED500605383 /* Products */;
+			mainGroup = 1891E5162AB7345F00605383;
+			productRefGroup = 1891E5202AB7345F00605383 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1891E4AC2AB6AED500605383 /* CombineCoreLocationManager */,
-				1891E4BC2AB6AED600605383 /* CombineCoreLocationManagerTests */,
-				1891E4C62AB6AED600605383 /* CombineCoreLocationManagerUITests */,
+				1891E51E2AB7345F00605383 /* ResultBuilder */,
+				1891E52E2AB7346000605383 /* ResultBuilderTests */,
+				1891E5382AB7346000605383 /* ResultBuilderUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1891E4AB2AB6AED500605383 /* Resources */ = {
+		1891E51D2AB7345F00605383 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1891E4B82AB6AED600605383 /* Preview Assets.xcassets in Resources */,
-				1891E4B52AB6AED600605383 /* Assets.xcassets in Resources */,
+				1891E52A2AB7346000605383 /* Preview Assets.xcassets in Resources */,
+				1891E5272AB7346000605383 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1891E4BB2AB6AED600605383 /* Resources */ = {
+		1891E52D2AB7346000605383 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1891E4C52AB6AED600605383 /* Resources */ = {
+		1891E5372AB7346000605383 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,51 +256,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1891E4A92AB6AED500605383 /* Sources */ = {
+		1891E51B2AB7345F00605383 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1891E4B32AB6AED500605383 /* ContentView.swift in Sources */,
-				1891E4B12AB6AED500605383 /* CombineCoreLocationManagerApp.swift in Sources */,
-				1891E4DB2AB6AF5500605383 /* LocationManager.swift in Sources */,
-				1891E4DD2AB6B0DB00605383 /* LocationViewModel.swift in Sources */,
+				1891E5252AB7345F00605383 /* ContentView.swift in Sources */,
+				1891E5232AB7345F00605383 /* ResultBuilderApp.swift in Sources */,
+				1891E54D2AB737C300605383 /* Setting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1891E4B92AB6AED600605383 /* Sources */ = {
+		1891E52B2AB7346000605383 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1891E4C22AB6AED600605383 /* CombineCoreLocationManagerTests.swift in Sources */,
+				1891E5342AB7346000605383 /* ResultBuilderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1891E4C32AB6AED600605383 /* Sources */ = {
+		1891E5352AB7346000605383 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1891E4CE2AB6AED600605383 /* CombineCoreLocationManagerUITestsLaunchTests.swift in Sources */,
-				1891E4CC2AB6AED600605383 /* CombineCoreLocationManagerUITests.swift in Sources */,
+				1891E53E2AB7346000605383 /* ResultBuilderUITests.swift in Sources */,
+				1891E5402AB7346000605383 /* ResultBuilderUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1891E4BF2AB6AED600605383 /* PBXTargetDependency */ = {
+		1891E5312AB7346000605383 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1891E4AC2AB6AED500605383 /* CombineCoreLocationManager */;
-			targetProxy = 1891E4BE2AB6AED600605383 /* PBXContainerItemProxy */;
+			target = 1891E51E2AB7345F00605383 /* ResultBuilder */;
+			targetProxy = 1891E5302AB7346000605383 /* PBXContainerItemProxy */;
 		};
-		1891E4C92AB6AED600605383 /* PBXTargetDependency */ = {
+		1891E53B2AB7346000605383 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1891E4AC2AB6AED500605383 /* CombineCoreLocationManager */;
-			targetProxy = 1891E4C82AB6AED600605383 /* PBXContainerItemProxy */;
+			target = 1891E51E2AB7345F00605383 /* ResultBuilder */;
+			targetProxy = 1891E53A2AB7346000605383 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1891E4CF2AB6AED600605383 /* Debug */ = {
+		1891E5412AB7346000605383 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,7 +359,7 @@
 			};
 			name = Debug;
 		};
-		1891E4D02AB6AED600605383 /* Release */ = {
+		1891E5422AB7346000605383 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -417,18 +413,17 @@
 			};
 			name = Release;
 		};
-		1891E4D22AB6AED600605383 /* Debug */ = {
+		1891E5442AB7346000605383 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CombineCoreLocationManager/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ResultBuilder/Preview Content\"";
 				DEVELOPMENT_TEAM = 79MK4FZV6Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Enable Location Services please";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -439,7 +434,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.enfycius.CombineCoreLocationManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.enfycius.ResultBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -447,18 +442,17 @@
 			};
 			name = Debug;
 		};
-		1891E4D32AB6AED600605383 /* Release */ = {
+		1891E5452AB7346000605383 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CombineCoreLocationManager/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ResultBuilder/Preview Content\"";
 				DEVELOPMENT_TEAM = 79MK4FZV6Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Enable Location Services please";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -469,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.enfycius.CombineCoreLocationManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.enfycius.ResultBuilder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -477,7 +471,7 @@
 			};
 			name = Release;
 		};
-		1891E4D52AB6AED600605383 /* Debug */ = {
+		1891E5472AB7346000605383 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -488,16 +482,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.enfycius.CombineCoreLocationManagerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.enfycius.ResultBuilderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CombineCoreLocationManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CombineCoreLocationManager";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResultBuilder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ResultBuilder";
 			};
 			name = Debug;
 		};
-		1891E4D62AB6AED600605383 /* Release */ = {
+		1891E5482AB7346000605383 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -508,16 +502,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.enfycius.CombineCoreLocationManagerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.enfycius.ResultBuilderTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CombineCoreLocationManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CombineCoreLocationManager";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResultBuilder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ResultBuilder";
 			};
 			name = Release;
 		};
-		1891E4D82AB6AED600605383 /* Debug */ = {
+		1891E54A2AB7346000605383 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -526,16 +520,16 @@
 				DEVELOPMENT_TEAM = 79MK4FZV6Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.enfycius.CombineCoreLocationManagerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.enfycius.ResultBuilderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CombineCoreLocationManager;
+				TEST_TARGET_NAME = ResultBuilder;
 			};
 			name = Debug;
 		};
-		1891E4D92AB6AED600605383 /* Release */ = {
+		1891E54B2AB7346000605383 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -544,55 +538,55 @@
 				DEVELOPMENT_TEAM = 79MK4FZV6Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.enfycius.CombineCoreLocationManagerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.enfycius.ResultBuilderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CombineCoreLocationManager;
+				TEST_TARGET_NAME = ResultBuilder;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1891E4A82AB6AED500605383 /* Build configuration list for PBXProject "CombineCoreLocationManager" */ = {
+		1891E51A2AB7345F00605383 /* Build configuration list for PBXProject "ResultBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1891E4CF2AB6AED600605383 /* Debug */,
-				1891E4D02AB6AED600605383 /* Release */,
+				1891E5412AB7346000605383 /* Debug */,
+				1891E5422AB7346000605383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1891E4D12AB6AED600605383 /* Build configuration list for PBXNativeTarget "CombineCoreLocationManager" */ = {
+		1891E5432AB7346000605383 /* Build configuration list for PBXNativeTarget "ResultBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1891E4D22AB6AED600605383 /* Debug */,
-				1891E4D32AB6AED600605383 /* Release */,
+				1891E5442AB7346000605383 /* Debug */,
+				1891E5452AB7346000605383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1891E4D42AB6AED600605383 /* Build configuration list for PBXNativeTarget "CombineCoreLocationManagerTests" */ = {
+		1891E5462AB7346000605383 /* Build configuration list for PBXNativeTarget "ResultBuilderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1891E4D52AB6AED600605383 /* Debug */,
-				1891E4D62AB6AED600605383 /* Release */,
+				1891E5472AB7346000605383 /* Debug */,
+				1891E5482AB7346000605383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1891E4D72AB6AED600605383 /* Build configuration list for PBXNativeTarget "CombineCoreLocationManagerUITests" */ = {
+		1891E5492AB7346000605383 /* Build configuration list for PBXNativeTarget "ResultBuilderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1891E4D82AB6AED600605383 /* Debug */,
-				1891E4D92AB6AED600605383 /* Release */,
+				1891E54A2AB7346000605383 /* Debug */,
+				1891E54B2AB7346000605383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1891E4A52AB6AED500605383 /* Project object */;
+	rootObject = 1891E5172AB7345F00605383 /* Project object */;
 }

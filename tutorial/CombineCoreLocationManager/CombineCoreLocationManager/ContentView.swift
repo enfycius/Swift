@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject
+    var locationViewModel = LocationViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        Group {
+            if locationViewModel.thereIsAnError {
+                Text("Location Service terminated with error: \(locationViewModel.errorMessage)")
+            } else {
+                Text("Status: \(locationViewModel.statusDescription)")
+                HStack {
+                    Text("Latitude: \(locationViewModel.latitude)")
+                    Text("Longitude: \(locationViewModel.longitude)")
+                }
+            }
+            
+        }.padding(.horizontal, 24)
+            .task {
+                locationViewModel.startUpdating()
+            }
+        
     }
 }
 
